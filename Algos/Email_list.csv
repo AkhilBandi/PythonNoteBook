@@ -1,0 +1,52 @@
+Client Name,Service Name,Email,Category,Type,Item
+Dash,INGCSharpService,digital-commerce-qa@amazon.com,Digital Media Technology,Digital Platform,QA
+SellerCSCustomerAccountService,INGCSharpService,cs-customer-data@amazon.com,Customer Service,CSCustomerDataService,AAA Access Request
+LegosCare,INGCSharpService,website-cs-dev@amazon.com,Website,Software,LegosCareService (LCS)
+PWAINEngine,INGCSharpService,cvna@amazon.com,Payments,IN-EPS,IN-EPS-CX
+SerracAPITestApplication,INGCSharpService,sx-delhi-team@amazon.com,Amazon.in,Seller Experience,SAFE-T
+QAarprakas,INGCSharpService,vaibsing@amazon.com,India,Payments,QA
+KuberCheckoutService,INGCSharpService,in-eps-cx-team@amazon.com,Payments,IN-EPS,IN-EPS-CX
+DataEmissary,INGCSharpService,data-emissary-dev@amazon.com,TRMS-Investigation-Tools,DataEmissaryService,Autocut-Monitors
+AmazonDigiBankService,INGCSharpService,indiasva@amazon.com,Payments,Amazon Pay Balance,Core-Services
+InvestigatorWorkbenchUI_TRMS,INGCSharpService,spa-eng-dfw@amazon.com,Selling Partner Abuse,spa-engineering,ParagonInvestigationWidgets
+InvictusCheckout,INGCSharpService,invictus-cx@amazon.com,Amazon.in,UFD,PrimeNowCX
+PaymentContractExecutionService,INGCSharpPerformAsyncService,pcx-dev@amazon.com,Payments,Service,Payment Contract
+CounterfeiterWork,INGCSharpService,songd@amazon.com,Payments,Service,Picasso
+KIS-BenefitFulfillmentExecutor,INGCSharpService,dice-fc-dev@amazon.com,Digital Media Technology,DiCE,BenefitFulfillmentWorkflows
+CoralDiverWebsite,INGCSharpProxyService,service-frameworks-team@amazon.com,IT Dev,Software Platform,Coral
+CSCentral,INGCSharpService,cs-devx@amazon.com,Customer Service,CSC/Texas,SellerCSWebsite AAA relationship requests
+CSSlapshotService,INGCSharpService,cs-slapshot-team@amazon.com,Customer Service,Slapshot,Service
+PayStation,INGCSharpService,paystation-dev@amazon.com,Payments,Service,PayStation
+AIRCubeCourier,INGCSharpService,hitendea@amazon.com,Payments,AIRCube,Tech Issues
+BuyBackPortalService,INGCSharpService,a2i-blr-dex@amazon.com,Amazon.in,Delivery Experience,BuyBackProgram
+BuyerFraudVariableComputationService,INGCSharpService,trms-platforms@amazon.com,IT Dev,Buyer Fraud Services,VCS
+APEX,INGCSharpService,arun-affordability-team@amazon.com,India,Payments,APEXService
+DigitalVideoWebsiteTools,INGCSharpService,dv-web-team@amazon.com,Digital Video,Website,Infrastructure
+INPayQABindle,INGCSharpPerformAsyncService,arpim@amazon.com,India,Payments,QA
+IndiaPaymentsQASupport,INGCSharpService,india-issuance-qa@amazon.com,India,Payments,QA
+PromotionsFulfillmentService,INGCSharpService,rajeevr@amazon.com,Company-wide Services,Services,INRewards
+AbuseIWJavaUI,INGCSharpService,policy-engineering-dev@amazon.com,TRMS,Policy Engineering,AbuseIWJavaUI
+PointsGCProxyService,INGCSharpService,lpa-in-dev@amazon.com,Payments,Incentives-IN,Default
+SellerRewardsProgramService,INGCSharpService,a2i-ssr-tech@amazon.com,Amazon.in,Seller Experience,SRP
+PaymentPlanService,INGCSharpProxyService_GetCustomerBalance,payment-definition-team@amazon.com,Payments,Service,PaymentPlanService
+CSConcessions,INGCSharpService,concessions-execution@amazon.com,Customer Service,CSC/Texas,Concessions Auto Cut
+CheckoutApplicationService,INGCSharpService,rcx-checkout-dev@amazon.com,Website,Amazon Checkout Pipeline,Autocut - Cheetah (Internal Only)
+CygnusService,INGCSharpProxyService_GetCustomerBalance,india-payments-dev@amazon.com,India,Payments,India Payments SVA
+PPQA-AAA,INGCSharpService,payment-plan-team@amazon.com,Payments,Service,PaymentPlanService
+DVPAClients,INGCSharpService,leomendo@amazon.com,Digital Video,Website,Signup - Prime
+ReturnCOMETService,INGCSharpService,creturns-platform-dev@amazon.com,Transportation,Customer Returns,PlatformDev
+KuberDoot,INGCSharpService,in-eps-mx-team@amazon.com,Payments,IN-EPS,IN-EPS-MX
+TritonWidgetWebsite,INGCSharpService,saitama-team@amazon.com,TRMS-Investigation-Tools,Triton,Autocut-Monitors
+FXQA,INGCSharpService,credit-qa@amazon.com,Payments,Service,Credit QA
+Reparo,INGCSharpService,in-apex-tech@amazon.com,India,Payments,ReparoService
+TortugaGratificationService,INGCSharpService,a2i-cx-engage-gamebox@amazon.com,Amazon.in,Mobile App Engagement,Gratification
+ApertureService,INGCSharpService,payments-portal-automata@amazon.com,Payments CX,APX,Framework
+SEALSPaymentPlanService,INGCSharpPerformAsyncService,sealsreshardingteam-2016@amazon.com,Payments,Service,SEALS
+SableResponderContainer,INGCSharpService,sable-datapath-core@amazon.com,Datapath,Responders,General
+PromotionAggregatorService,INGCSharpService,viyer@amazon.com,Company-wide Services,Services,INRewards
+INGCTests,INGCSharpService,indiapaymentsqa@amazon.com,India,Payments,QA
+GCSharpService,INGCSharpProxyService_GetCustomerBalance,gc-dev-core@amazon.com,Payments,Service,GCSharp
+HerdEngine,INGCSharpService,herd-internal@amazon.com,Software,Herd,Service
+PPQA,INGCSharpService,payment-plans-qa@amazon.com,Payments,Service,PaymentPlanService
+BenefitExecutionService,INGCSharpService,in-race-affordability-dev@amazon.com,Amazon.in,RACE,GC Cashback
+DemoNitishService,INGCSharpService,nitishw@amazon.com,India,Payments,DevTeam
