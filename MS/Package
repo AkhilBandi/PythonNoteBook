@@ -1,0 +1,141 @@
+{
+  "name": "@notes/aria-common-schema-logger",
+  "version": "0.2.2",
+  "sideEffects": [
+    "*.css"
+  ],
+  "description": "",
+  "main": "lib-commonjs/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*",
+    "lib-amd/**/*",
+    "lib-commonjs/**/*",
+    "types",
+    "temp_node_modules"
+  ],
+  "scripts": {
+    "clean": "node node_modules/@notes/webintegrations-common/package-scripts/clean.js",
+    "build": "yarn run clean && yarn run build:tsc",
+    "build:tsc": "node node_modules/@notes/webintegrations-common/package-scripts/build.js --production",
+    "build:watch": "yarn run clean && yarn run build:tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest",
+    "test-watch": "cross-env TS_NODE_PROJECT=test/tsconfig.json NODE_ENV=test NODE_PATH=./src mocha --opts mocha.opts --watch",
+    "coverage": "cross-env TS_NODE_PROJECT=test/tsconfig.json NODE_ENV=test NODE_PATH=./src nyc mocha --opts mocha.nyc.opts --reporter XUnit --reporter-options output=test/test-result.xml",
+    "publish-if-newer": "node ./publishIfNewVersion",
+    "lint": "tslint --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://office@vs-ssh.visualstudio.com:22/DefaultCollection/OneNote/_ssh/aria-common-schema-logger-web"
+  },
+  "author": "Microsoft",
+  "license": "MIT",
+  "dependencies": {
+    "@aria/webjs-sdk": "^1.8.0"
+  },
+  "devDependencies": {
+    "@notes/webintegrations-common": "0.1.25",
+    "@types/deep-freeze": "^0.1.2",
+    "@types/jest": "^26.0.23",
+    "@types/js-cookie": "2.1.0",
+    "@types/jwt-decode": "2.2.1",
+    "@types/office-js": "^1.0.173",
+    "@types/query-string": "6.3.0",
+    "@types/sinon-chai": "^3.2.5",
+    "@types/systemjs": "^0.20.6",
+    "awesome-typescript-loader": "^5.0.0",
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-jest": "^23.0.1",
+    "babel-loader": "7.1.2",
+    "babel-plugin-transform-es2015-classes": "6.24.1",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-es2017": "1.4.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "chai": "^4.3.4",
+    "chalk": "^2.4.1",
+    "deep-freeze": "0.0.1",
+    "express": "^4.17.1",
+    "file-loader": "^1.1.11",
+    "har-validator": "5.1.5",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^23.6.0",
+    "jest-junit": "^12.2.0",
+    "jest-localstorage-mock": "^2.4.18",
+    "mini-css-extract-plugin": "^1.6.0",
+    "mocha": "^5.0.5",
+    "ngrok": "^3.0.1",
+    "npm-run-all": "^4.1.5",
+    "sinon": "^4.5.0",
+    "sinon-chai": "^3.7.0",
+    "systemjs": "^2.1.1",
+    "ts-jest": "^22.4.4",
+    "ts-loader": "^8.0.17",
+    "tslint": "6.1.3",
+    "tslint-loader": "^3.5.3",
+    "tslint-microsoft-contrib": "6.2.0",
+    "tslint-misc-rules": "^3.6.0",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.7.2",
+    "uglify-save-license": "^0.4.1",
+    "whatwg-fetch": "2.0.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.ts$": "ts-jest"
+    },
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/(?!office-ui-fabric-react)"
+    ],
+    "testPathIgnorePatterns": [
+      "/dist"
+    ],
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "moduleNameMapper": {
+      "\\.css|.css?raw$": "identity-obj-proxy",
+      "\\.(jpg|jpeg|png|svg)$": "<rootDir>/test/file-mock.js",
+      "@notes/webintegrations-common/lib/(.*)$": "@notes/webintegrations-common/lib-commonjs/$1"
+    },
+    "setupTestFrameworkScriptFile": "./test/setupTests.ts",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!src/**/*.d.ts"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 5,
+        "branches": 5,
+        "functions": 10,
+        "lines": 5
+      }
+    },
+    "coverageReporters": [
+      "cobertura"
+    ],
+    "setupFiles": [
+      "jest-localstorage-mock"
+    ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ],
+    "testURL": "http://localhost"
+  }
+}
